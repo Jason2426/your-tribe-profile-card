@@ -53,7 +53,7 @@ button {
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgba(0,239,255,1);
+  background: rgb(18, 103, 109);
   transform: scale(.8);
   transition: .25s;
 }
