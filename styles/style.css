@@ -22,8 +22,8 @@ article {
   align-items: center;
   justify-content: flex-end;
   width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+  max-width: 80em;
+  min-width: 50em;
   border-radius: 1rem;
   background: rgb(26, 61, 126);
   background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
