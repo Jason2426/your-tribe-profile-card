@@ -1,0 +1,46 @@
+/*goodluck*/ 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(assets/photo-1519638399535-1b036603ac77.avif);
+    background-size: cover;
+    /* background-color: #FFFF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+article {
+    width: 350px;
+    height: 450px;
+    background-color: #EAEAEA;
+    border-radius: 2em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid lime;
+    /* animation: mymove 7s infinite; */
+}
+/* @keyframes mymove {
+  50% {box-shadow: 10px 20px 30px #38D8D2;}
+} */
+
+img {
+    margin-top: 40px;
+    border-radius: 2em;
+}
+button {
+    background-color: #38D8D2;
+    border-radius: 1em;
+}
+.content-below{
+    width: auto;
+    margin: 0em 3em 0em 3em;
+}
+.col{
+    float: left;
+    width: 50%;
+}
+
+
+
