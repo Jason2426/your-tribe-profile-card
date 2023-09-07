@@ -1,52 +1,56 @@
 /*goodluck*/ 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(assets/photo-1519638399535-1b036603ac77.avif);
+    background-image: url(./assets/ttcbg.png);
     background-size: cover;
-    /* background-color: #FFFF; */
+    /* background-color: #F8F0D2; */
+    font-family: 'Lalezar', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
+    margin: 0%;
 }
-
-article {
-    width: 350px;
-    height: 450px;
-    background-color: #EAEAEA;
+section {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
     border-radius: 2em;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    /* animation: mymove 7s infinite; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-/* @keyframes mymove {
-  50% {box-shadow: 10px 20px 30px #38D8D2;}
-} */
+p{
+    margin-top: -2em;
 
-img {
-    margin-top: 0px;
-    border-radius: 2em;
 }
-.button1{
-    background: #35cbc6;
-    border-radius: 1.5em;
-    border : 0px solid black;
-    margin: 15px 0px 10px 0px ;
+.name{ 
+    color: #8F7A65;
+    font-size: 4em;
+    margin: 25px 0px 0px 35px
 }
-.button2 {
-    font-size: 15px;
-    background-color: #35cbc6;
-    border-radius: 1.5em;
-    border : 0px solid black;
-    margin : 10px;
-    width: 250px;
-    height: 35px;
+.age {
+    margin: 0px 0px 0px 35px;
+    font-size: 5em;
+    background-color: #F8C0BF;
+    border-radius: 10px;
+    padding: .05em .25em;
     color: white;
-    font-weight:bold;
+    display: inline-block;
+    span {
+        position: relative;
+        top: 4px;
+    }
 }
-
-
-
-
-
+.time {
+    font-size: 3.5em;
+    color: #8F7A65;;
+}
+.flip-card-bt {
+    background-color: #F8C0BF;
+    color: white;
+    border-radius: 2em;
+    min-width: 50px;
+    text-decoration: none;
+}
+:target {
+    background: #ffffff;
+}
