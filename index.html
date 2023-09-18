@@ -1,57 +1,30 @@
 <!DOCTYPE html>
-<html lang="nl">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    
-    <article>
-      
-      <header>
-        
-        <h1>Jason Wong</h1>
-        
-        <button>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="assets/IMG_5601.png" alt="" width="800" height="800">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <title>Jason Wong</title>
+</head>
+<body>
+    <section id="me">
+        <h1 class="name">Jason Wong</h1>
+        <p><strong class="age"><span>19</span></strong> <time class="time">06/02/2004</time></p>
+        <a href="#things-i-like" class="flip-card-bt">Flip card</a>
+    </section>
 
-      <dl style="color: black; font-family: Arial, Helvetica, sans-serif;">
-        <dt>HTML</dt>
-        <dd>🏆🏆🏆🏆</dd>
-        
-        <dt>CSS</dt>
-        <dd>🏆🏆🏆🏆</dd>
-        
-        <dt>JavaScript</dt>
-        <dd>🏆🏆</dd>
-      </dl>
-  
-      <p style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Kan geen dag zonder muziek <br> </p>
-      
-    </article>
-
-    <script src="scripts/script.js"></script>
-    
-  </body>
+    <section id="things-i-like" style="display: none;">
+        <h2>A few things I like</h2>
+        <ul>
+            <li>Muziek luisteren</li>
+            <li>Reizen</li>
+            <li>De Aziatische keuken</li>
+            <li>F&F</li>
+        </ul>
+        <a href="#me">Flip card</a>
+    </section>
+</body>
 </html>
